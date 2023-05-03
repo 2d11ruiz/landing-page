@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headerlogo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.headerlinks {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    gap: 24px;
+}
+
+.secOne {
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.hero {
+    width: 444px;
+    height: 222px;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.herotext {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.herosubtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.herobutton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    border-color: #3882F6;
+    width: 100px;
+    height: 33px;
+    font-weight: 900;
+}
+
+.heroimage {
+    background-color: grey;
+    color:#F9FAF8;
+    width: 444px;
+    height: 222px;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secTwo {
+    flex: 1;
+}
+
+.secThree {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.secFour {
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+}
